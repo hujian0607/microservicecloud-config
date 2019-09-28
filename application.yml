@@ -1,0 +1,23 @@
+﻿spring:
+  profiles:
+   active:
+    -dev
+
+---
+
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-hj-dev
+    
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-hj-test
+
+---
+spring:
+  profiles: pro
+  application:
+    name: microservicecloud-config-hj-pro
